@@ -1,0 +1,81 @@
+/* @font-face {
+  font-family: 'Europe_Ext';
+  src: url(${EuropeExtBack}) format('woff2'),
+    url(${EuropeExtNormal}) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+* {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-size: 1.4rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: Roboto, sans-serif;
+  @media (max-width: 800px) {
+    overflow-x: hidden;
+
+  }
+}
+/* #__next {
+  display: flex;
+  height: inherit;
+} */
+
+ul {
+  list-style: none;
+}
+
+.bm-burger-button #react-burger-menu-btn {
+  left: inherit !important;
+  right: 0 !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+.bm-menu-wrap{
+  position:unset!important;
+  background:transparent !important;
+}
+
+.bm-burger-bars {
+  height: 10px !important;
+  left: inherit !important;
+  right: 0px !important;
+  top: 0% !important;
+  width: 50px !important;
+  background-color: #ffff !important;
+}
+
+.bm-burger-bars:nth-child(1) {
+  margin-top: 10px !important;
+  top: 0 !important;
+}
+
+.bm-burger-bars:nth-child(2) {
+  margin-top: 22px !important;
+  top: 0 !important;
+}
+
+.bm-burger-bars:nth-child(3) {
+  margin-top: 36px !important;
+  top: 0 !important;
+}
